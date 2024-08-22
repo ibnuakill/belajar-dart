@@ -7,6 +7,7 @@ void main() {
   // operator => sesuatu yang memutuskan bagaimana operands akan diproses (+)
 
   // aritmethic operator
+  print('Arithmetic Operator');
   var penjumlahan = a + b;
   // pengurangan
   var pengurangan = a - b;
@@ -23,10 +24,28 @@ void main() {
   print(sisa);
 
   // equality and relationship operator
-  if (a > b) ;
-  if (a < b) ;
-  if (a == b) ;
-  if (a != b) ;
-  if (a >= b) ;
-  if (a <= b) ;
+  print(' Equality and Relationship Operator');
+  // lebih dari
+  print(a > b);
+  // kurang dari
+  print(a < b);
+  // sama dengan
+  print(a == b);
+  // tidak sama dengan
+  print(a != b);
+  // lebih besar atau sama dengan
+  print(a >= b);
+  // kurang besar atau sama dengan
+  print(a <= b);
+
+  // logical operator
+  print('Logical Operator');
+  bool x = false;
+  bool y = true;
+  // && AND => bernilai false apabila salah satunya bernilai false
+  print(x && y);
+  // || OR => bernilai true apabila salah satunya bernilai true
+  print(x || y);
+  //  ! NOT => bernilai true apabila x bernilai false
+  print(!x);
 }
