@@ -23,8 +23,8 @@ void main() {
   */
 
   // no 1
-  int nilai = 91;
-  if (nilai == 91 || nilai == 100) {
+  int nilai = 92;
+  if (nilai >= 91 && nilai <= 100) {
     print('Sangat Baik');
   } else if (nilai >= 81 && nilai <= 90) {
     print('Baik');
@@ -39,7 +39,7 @@ void main() {
   }
 
   var nilai1 = 81;
-  var nilai2 = nilai1 == 91 || nilai1 == 100
+  var nilai2 = nilai1 >= 91 && nilai1 <= 100
       ? 'Sangat Baik'
       : nilai1 >= 81 && nilai1 <= 90
           ? 'Baik'
